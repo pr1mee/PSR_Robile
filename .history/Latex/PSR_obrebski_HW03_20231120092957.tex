@@ -2,7 +2,6 @@
 \documentclass[11pt,a4paper]{article}
 
 %\usepackage{graphicx}
-\usepackage[margin=2cm]{geometry}
 \usepackage{amsmath}
 \usepackage[normalem]{ulem}
 \useunder{\uline}{\ul}{}
@@ -13,7 +12,7 @@
 \author{Miguel Obrebski}
 \date{} % Use \date{} to display no date
 
-\begin{document}
+\begin{document}[hptb]
 
 \maketitle
 
@@ -70,7 +69,7 @@ Note: The sections are not ordered to fit the tasks' order.
 % \useunder{\uline}{\ul}{}
 % \usepackage{lscape}
 \begin{landscape}
-    \begin{table}
+    \begin{table}[]
         \centering
         \begin{tabular}{r|ccc|ccc|l|l}
             \textbf{Algorithm} & \multicolumn{3}{c|}{\textbf{Runtime}}                      & \multicolumn{3}{c|}{\textbf{Memory}}                       & \textbf{Notes}           & {\ul \textbf{Acceptable Solution?}}                                                                                                                                                                                  \\ \hline
@@ -133,16 +132,11 @@ For now see above
 \item Extreme problems getting ROS and Gazebo to work, maybe consider making a clean aio tutorial?
 \end{enumerate}
 \subsection{Development plan until 15.12.2023}
-Take existing alg to safe time PYTHON APPS\\
-initial draft navigation plugin\\
-Maybe wrapper?\\
-Corridor into 2 resolution with Jay
-\\\\low prio
-octtree mapping\\
 
 \section{Conclusion}
 % Bibliography (if needed)
 % \bibliographystyle{plain}
 % \bibliography{your_bibliography_file}
-test123
+
+
 \end{document}
