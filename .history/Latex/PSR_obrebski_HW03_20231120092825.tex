@@ -1,0 +1,142 @@
+
+\documentclass[11pt,a4paper]{article}
+
+%\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{lscape}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{hyperref}
+\title{Selection and implementation of technical approaches for path planning using ROS2 Humble}
+\author{Miguel Obrebski}
+\date{} % Use \date{} to display no date
+
+\begin{document}[hptb]
+
+\maketitle
+
+% Your content goes here
+
+\section{Task description}
+\begin{enumerate}
+    \item Skim through the papers and other online resources that you collected and select two promising approaches for your topic.
+    \item Explain your reasons for selecting these approaches.
+
+          For this you have to imagine the scenario in which the robot is moving through the university campus. Think about how the data would be in this scenario (e.g.\
+          images of people, speech, language, lighting, background noise, motion blur, etc.). Would this affect your choice of the approaches?
+    \item Identify the hardware and software requirements for the selected approaches.
+    \item Add the answers for all the above items in a document and upload in PDF format.
+    \item Start implementing the selected approaches.
+    \item Set up a GitHub/GitLab repository for your code and mention the link in the PDF document in Item 4.
+    \item During the class on 17.11., present the progress in technical implementation:
+
+          \begin{enumerate}
+              \item Programming language, libraries, dependencies
+              \item Technical issues you are facing
+              \item Development plan until 15.12.2023
+          \end{enumerate}
+    \item If you cannot attend the class on 17.11., include your answer for Item 7 in the PDF document.
+\end{enumerate}
+Note: The sections are not ordered to fit the tasks' order.
+
+
+\section{Selecting possible approaches}
+\subsection{Considerations}
+\subsubsection[short]{General}
+\begin{itemize}
+    \item Number of nodes?
+    \item Number of dimensions? 2 or 3?\\
+          2 to make it easier.\\
+          Different floors? put them next to each other and connect the elevators
+\end{itemize}
+
+\subsubsection{General Ideas}
+\begin{itemize}
+    \item Dynamic Programming or Cache?
+\end{itemize}
+\subsubsection{Algorithm-specific}
+\begin{itemize}
+    \item Runtime
+    \item Memory/Storage usage
+\end{itemize}
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+% \usepackage{lscape}
+\begin{landscape}
+    \begin{table}[]
+        \centering
+        \begin{tabular}{r|ccc|ccc|l|l}
+            \textbf{Algorithm} & \multicolumn{3}{c|}{\textbf{Runtime}}           & \multicolumn{3}{c|}{\textbf{Memory}}            & \textbf{Notes}           & {\ul \textbf{Acceptable Solution?}}                                                                                                                                                                        \\ \hline
+                               & \multicolumn{1}{c|}{min}                        & \multicolumn{1}{c|}{med}                        & max                      & min                                 & med & max          &                                                                                                                &                                \\ \hline
+            Dijkstra           & \multicolumn{1}{c|}{$\rightarrow$}                         & \multicolumn{1}{c|}{->}                         & \(O(n log(n)+m)\)        & ->                                  & ->  & \(O(n + m)\) & with fibonacci heap                                                                                            & optimal                        \\
+            A*                 & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{}                           & \(O(n^2)\) or \(O(b^d)\) & \(O(n)\)                            &     & \(O(b^d)\)   & \begin{tabular}[c]{@{}l@{}}heavily based\\ on heuristics;\\ memory should\\ be the bottleneck (?)\end{tabular} & optimal                        \\
+            IDA*               & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{}                           & \(O(b^d)\)               & \(O(n)\)                            &     & \(O(d)\)     & takes years (?)                                                                                                & optimal, but too long          \\
+            Best-First-Search  & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{}                           & \(O(b^d)\)               & \(O(n)\)                            &     &              &                                                                                                                & not optimal                    \\
+            \rowcolor[HTML]{96FFFB}
+            Floyd-Warshall     & \multicolumn{1}{c|}{\cellcolor[HTML]{96FFFB}->} & \multicolumn{1}{c|}{\cellcolor[HTML]{96FFFB}->} & \(O(n^3)\)               & ->                                  & ->  & \(O(n^2)  \) & \begin{tabular}[c]{@{}l@{}}not efficient for\\ big graphs;\\ this is from all to all\end{tabular}              & optimal, very interesting      \\
+            RRT                & \multicolumn{1}{c|}{->}                         & \multicolumn{1}{c|}{->}                         & \(O(K \log K)\)          & ->                                  & ->  & \(O(K)    \) & near optimal                                                                                                   & near optimal, very interesting \\
+            \rowcolor[HTML]{96FFFB}
+            RRT* (or similar)  & \multicolumn{1}{c|}{\cellcolor[HTML]{96FFFB}->} & \multicolumn{1}{c|}{\cellcolor[HTML]{96FFFB}->} & \(O(K \log K)\)          & ->                                  & ->  & \(O(K)    \) &                                                                                                                & near optimal, very interesting \\
+            Jump Point Search  & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{}                           & \(O(n log n)\)           & ->                                  & ->  & \(O(n)    \) &                                                                                                                & optimal for grid-maps          \\
+            Trace              & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{}                           & \(O(V + E)\)             & \(O(n)         \)                   &     & \(O(V + E)\) & \begin{tabular}[c]{@{}l@{}}not optimal,\\ weird movement\end{tabular}                                          & no
+        \end{tabular}
+    \end{table}
+    The blue are selected
+\end{landscape}
+
+
+% Fast find the target
+% Move
+% Continue moving to direction while checking for obstacles
+% \begin{enumerate}
+%     \item Best Algorithms
+%     \item Dynamic or not dynamic?\newline
+%           What to pay attention about:\newline
+%           Storage, Processing power\newline
+%           If not much storage:\newline
+%           Caching or just calculating.\newline
+%           Questions: How much Storage needed? How much time needed?\newline
+%           Algorithms: A* writes the shortest paths from a to b in storage, uses this as new route or something, or Floyd and Warshall algorithm
+% \end{enumerate}
+
+
+\section{Reasons for selection of approaches}
+\subsection{Floyd-Warshall algorithm}
+Seems like a good solution to preplan all paths instead of calculating manually.\\
+Should be resource-efficient.\\
+FWA was always interesting for me.
+\subsection{RRT* algorithm(s)}
+Seems to be running edge in motion planning.\\
+Interesting approach. \\
+It's something else.
+\subsection{Scenarios}
+Sorry, for now I just wanna come from A to B.
+\section{Identify Hardware and Software Requirements}
+For now see above
+\section{Start implementing}
+
+\section{Setup GitHub/GitLab repo}
+\url{https://github.com/pr1mee/PSR_Robile}
+
+\section{Present progress in technical solution}
+
+\subsection{Programming language, libraries, dependencies}
+\subsection{Technical issues you are facing}
+\begin {enumerate}
+\item Extreme problems getting ROS and Gazebo to work, maybe consider making a clean aio tutorial?
+\end{enumerate}
+\subsection{Development plan until 15.12.2023}
+
+\section{Conclusion}
+% Bibliography (if needed)
+% \bibliographystyle{plain}
+% \bibliography{your_bibliography_file}
+
+
+\end{document}
