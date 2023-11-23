@@ -1,0 +1,411 @@
+[0.377s] Invoking command in '/home/prime/ros2_ws/build/kelo_tulip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prime/ros2_ws/install/robile_reach_goal:/home/prime/ros2_ws/install/robile_control_simple:/home/prime/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake /home/prime/ros2_ws/src/kelo_tulip -DCMAKE_INSTALL_PREFIX=/home/prime/ros2_ws/install/kelo_tulip
+[0.997s] -- The C compiler identification is GNU 11.4.0
+[0.997s] -- The CXX compiler identification is GNU 11.4.0
+[0.997s] -- Detecting C compiler ABI info
+[0.998s] -- Detecting C compiler ABI info - done
+[0.998s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.998s] -- Detecting C compile features
+[0.998s] -- Detecting C compile features - done
+[0.998s] -- Detecting CXX compiler ABI info
+[0.998s] -- Detecting CXX compiler ABI info - done
+[0.998s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.998s] -- Detecting CXX compile features
+[0.998s] -- Detecting CXX compile features - done
+[0.999s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.999s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.999s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.999s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.999s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.999s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.999s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.022s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.024s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.095s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.114s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.148s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.156s] -- Looking for pthread.h
+[1.204s] -- Looking for pthread.h - found
+[1.204s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.270s] -- Found Threads: TRUE  
+[1.429s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.566s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.666s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[1.679s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.048s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.060s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.061s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.061s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.081s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.170s] -- Configuring done
+[2.256s] -- Generating done
+[2.257s] -- Build files have been written to: /home/prime/ros2_ws/build/kelo_tulip
+[2.308s] Invoked command in '/home/prime/ros2_ws/build/kelo_tulip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prime/ros2_ws/install/robile_reach_goal:/home/prime/ros2_ws/install/robile_control_simple:/home/prime/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake /home/prime/ros2_ws/src/kelo_tulip -DCMAKE_INSTALL_PREFIX=/home/prime/ros2_ws/install/kelo_tulip
+[2.309s] Invoking command in '/home/prime/ros2_ws/build/kelo_tulip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prime/ros2_ws/install/robile_reach_goal:/home/prime/ros2_ws/install/robile_control_simple:/home/prime/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake --build /home/prime/ros2_ws/build/kelo_tulip -- -j12 -l12
+[2.350s] [ 10%] [32mBuilding CXX object CMakeFiles/tulip_velocity_controller.dir/src/Utils.cpp.o[0m
+[2.350s] [ 10%] [32mBuilding CXX object CMakeFiles/tulip_velocity_controller.dir/src/VelocityPlatformController.cpp.o[0m
+[2.351s] [ 15%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatbase.c.o[0m
+[2.351s] [ 20%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatconfig.c.o[0m
+[2.352s] [ 25%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatcoe.c.o[0m
+[2.353s] [ 30%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatdc.c.o[0m
+[2.360s] [ 35%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatprint.c.o[0m
+[2.364s] [ 40%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatfoe.c.o[0m
+[2.364s] [ 45%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/osal/linux/osal.c.o[0m
+[2.368s] [ 50%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatmain.c.o[0m
+[2.372s] [ 55%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/oshw/linux/nicdrv.c.o[0m
+[2.373s] [ 60%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/ethercatsoe.c.o[0m
+[2.390s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/ethercatconfig.c:[m[K In function ‘[01m[Kecx_config_find_mappings[m[K’:
+[2.390s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/ethercatconfig.c:864:16:[m[K [01;35m[Kwarning: [m[KISO C forbids passing argument 3 of ‘[01m[Kosal_thread_create[m[K’ between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.391s]   864 |                [01;35m[K&ecx_mapper_thread[m[K, &(ecx_mapt[thrn]));
+[2.391s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.391s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/ethercatconfig.c:16[m[K:
+[2.391s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:48:60:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid *[m[K’ but argument is of type ‘[01m[Kvoid (*)(void *)[m[K’
+[2.391s]    48 | int osal_thread_create(void *thandle, int stacksize, [01;36m[Kvoid *func[m[K, void *param);
+[2.391s]       |                                                      [01;36m[K~~~~~~^~~~[m[K
+[2.408s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercat.h:22[m[K,
+[2.416s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/ethercatmain.c:22[m[K:
+[2.416s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h:166:10:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.416s]   166 |    uint8 [01;35m[Kdata[m[K[0];
+[2.416s]       |          [01;35m[K^~~~[m[K
+[2.416s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/ethercatfoe.c:[m[K In function ‘[01m[Kecx_FOEdefinehook[m[K’:
+[2.416s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/ethercatmain.c:323:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.416s]   323 | }[01;35m[K;[m[K
+[2.417s]       |  [01;35m[K^[m[K
+[2.417s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/ethercatfoe.c:56:20:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.417s]    56 |   context->FOEhook [01;35m[K=[m[K hook;
+[2.417s]       |                    [01;35m[K^[m[K
+[2.417s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/ethercatmain.c:2048:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.417s]  2048 | }[01;35m[K;[m[K
+[2.417s]       |  [01;35m[K^[m[K
+[2.417s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:[m[K In function ‘[01m[Kosal_thread_create[m[K’:
+[2.417s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:111:41:[m[K [01;35m[Kwarning: [m[KISO C forbids passing argument 3 of ‘[01m[Kpthread_create[m[K’ between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.417s]   111 |    ret = pthread_create(threadp, &attr, [01;35m[Kfunc[m[K, param);
+[2.418s]       |                                         [01;35m[K^~~~[m[K
+[2.418s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h:20[m[K,
+[2.418s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:14[m[K,
+[2.418s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:11[m[K:
+[2.418s] [01m[K/usr/include/pthread.h:204:36:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid * (*)(void *)[m[K’ but argument is of type ‘[01m[Kvoid *[m[K’
+[2.418s]   204 |                            [01;36m[Kvoid *(*__start_routine) (void *)[m[K,
+[2.418s]       |                            [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.418s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:[m[K In function ‘[01m[Kosal_thread_create_rt[m[K’:
+[2.418s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:129:41:[m[K [01;35m[Kwarning: [m[KISO C forbids passing argument 3 of ‘[01m[Kpthread_create[m[K’ between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.419s]   129 |    ret = pthread_create(threadp, &attr, [01;35m[Kfunc[m[K, param);
+[2.419s]       |                                         [01;35m[K^~~~[m[K
+[2.419s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h:20[m[K,
+[2.419s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/osal/osal.h:14[m[K,
+[2.419s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/soem/osal/linux/osal.c:11[m[K:
+[2.419s] [01m[K/usr/include/pthread.h:204:36:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid * (*)(void *)[m[K’ but argument is of type ‘[01m[Kvoid *[m[K’
+[2.419s]   204 |                            [01;36m[Kvoid *(*__start_routine) (void *)[m[K,
+[2.419s]       |                            [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.432s] [ 65%] [32mBuilding C object src/soem/CMakeFiles/soem.dir/oshw/linux/oshw.c.o[0m
+[2.529s] [ 70%] [32m[1mLinking C static library libsoem.a[0m
+[2.558s] [ 70%] Built target soem
+[4.148s] [ 75%] [32m[1mLinking CXX static library libtulip_velocity_controller.a[0m
+[4.192s] [ 75%] Built target tulip_velocity_controller
+[4.205s] [ 90%] [32mBuilding CXX object CMakeFiles/platform_driver.dir/src/EtherCATModule.cpp.o[0m
+[4.205s] [ 95%] [32mBuilding CXX object CMakeFiles/platform_driver.dir/src/modules/RobileMasterBattery.cpp.o[0m
+[4.205s] [ 90%] [32mBuilding CXX object CMakeFiles/platform_driver.dir/src/PlatformDriver.cpp.o[0m
+[4.205s] [ 95%] [32mBuilding CXX object CMakeFiles/platform_driver.dir/src/PlatformDriverROS.cpp.o[0m
+[4.224s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/EtherCATModule.h:48[m[K,
+[4.224s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/EtherCATModule.cpp:44[m[K:
+[4.224s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:487:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.224s]   487 |       [01;35m[K{[m[K
+[4.224s]       |       [01;35m[K^[m[K
+[4.775s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/PlatformDriver.h:49[m[K,
+[4.775s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:44[m[K:
+[4.775s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:487:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.775s]   487 |       [01;35m[K{[m[K
+[4.775s]       |       [01;35m[K^[m[K
+[4.895s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/EtherCATModule.h:48[m[K,
+[4.895s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h:48[m[K,
+[4.895s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:45[m[K:
+[4.895s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:487:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.895s]   487 |       [01;35m[K{[m[K
+[4.895s]       |       [01;35m[K^[m[K
+[4.901s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/PlatformDriver.h:49[m[K,
+[4.902s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriverROS.cpp:44[m[K:
+[4.902s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercattype.h:487:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.902s]   487 |       [01;35m[K{[m[K
+[4.902s]       |       [01;35m[K^[m[K
+[5.543s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:[m[K In member function ‘[01m[Kvirtual bool kelo::RobileMasterBattery::step()[m[K’:
+[5.543s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:87:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinput[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.543s]    87 |         RobileMasterBatteryProcessDataInput* [01;35m[Kinput[m[K = (RobileMasterBatteryProcessDataInput*) ecx_slaves[slaveNumber].inputs;
+[5.543s]       |                                              [01;35m[K^~~~~[m[K
+[5.543s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:[m[K In member function ‘[01m[Kvoid kelo::RobileMasterBattery::shutdown(int)[m[K’:
+[5.543s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/modules/RobileMasterBattery.cpp:141:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kseconds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.543s]   141 | void RobileMasterBattery::shutdown([01;35m[Kint seconds[m[K) {
+[5.543s]       |                                    [01;35m[K~~~~^~~~~~~[m[K
+[5.555s] In file included from [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercat.h:22[m[K,
+[5.555s]                  from [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:48[m[K:
+[5.555s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h:166:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.555s]   166 |    uint8 data[[01;35m[K0[m[K];
+[5.555s]       |               [01;35m[K^[m[K
+[5.573s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:[m[K In member function ‘[01m[Kvoid kelo::PlatformDriver::reconnectSlave(int)[m[K’:
+[5.573s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:346:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kslave[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.573s]   346 | void PlatformDriver::reconnectSlave([01;35m[Kint slave[m[K) {
+[5.573s]       |                                     [01;35m[K~~~~^~~~~[m[K
+[5.577s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:[m[K In member function ‘[01m[Kvoid kelo::PlatformDriver::ethercatHandler()[m[K’:
+[5.577s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:514:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kok[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.577s]   514 |                         bool [01;35m[Kok[m[K = modules[i]->step();
+[5.577s]       |                              [01;35m[K^~[m[K
+[5.860s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:[m[K In member function ‘[01m[Kstd::vector<double> kelo::PlatformDriver::getEncoderValue(unsigned int)[m[K’:
+[5.860s] [01m[K/home/prime/ros2_ws/src/kelo_tulip/src/PlatformDriver.cpp:547:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[5.860s]   547 | [01;35m[K}[m[K
+[5.860s]       | [01;35m[K^[m[K
+[17.333s] [100%] [32m[1mLinking CXX executable platform_driver[0m
+[24.785s] [100%] Built target platform_driver
+[24.793s] Invoked command in '/home/prime/ros2_ws/build/kelo_tulip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prime/ros2_ws/install/robile_reach_goal:/home/prime/ros2_ws/install/robile_control_simple:/home/prime/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake --build /home/prime/ros2_ws/build/kelo_tulip -- -j12 -l12
+[24.816s] Invoking command in '/home/prime/ros2_ws/build/kelo_tulip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prime/ros2_ws/install/robile_reach_goal:/home/prime/ros2_ws/install/robile_control_simple:/home/prime/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake --install /home/prime/ros2_ws/build/kelo_tulip
+[24.821s] -- Install configuration: ""
+[24.821s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/lib/kelo_tulip/platform_driver
+[24.826s] -- Set runtime path of "/home/prime/ros2_ws/install/kelo_tulip/lib/kelo_tulip/platform_driver" to ""
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/lib/libtulip_velocity_controller.a
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal.c
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime
+[24.826s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal_defs.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal.c
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal_defs.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal.c
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/osal.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal_defs.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal.c
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal_defs.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal.c
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_defs.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_win32.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/stdint.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal.c
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/inttypes.h
+[24.827s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfiglist.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercattype.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatdc.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.c
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.c
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.c
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.c
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.c
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.h
+[24.828s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.h
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.c
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.c
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.h
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.c
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.c
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.h
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.h
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.c
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.c
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.h
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.h
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.c
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.c
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.h
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.h
+[24.829s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-namedb.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Packet32.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/remote-ext.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Win32-Extensions.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/namedb.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/pcap.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/vlan.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bpf.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/sll.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/usb.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bluetooth.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/bittypes.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-stdinc.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-bpf.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/ip6_misc.h
+[24.830s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libpacket.a
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/wpcap.lib
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/Packet.lib
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libwpcap.a
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/wpcap.lib
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/Packet.lib
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.c
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatfoe.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatmain.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatsoe.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfig.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercat.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatcoe.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatprint.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatbase.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/Utils.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/KeloDriveAPI.h
+[24.831s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/WheelConfig.h
+[24.832s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/Structs.h
+[24.832s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/modules
+[24.832s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h
+[24.832s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/VelocityPlatformController.h
+[24.832s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/EtherCATModule.h
+[24.832s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/PlatformDriver.h
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal_defs.h
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/linux/osal.c
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal_defs.h
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/intime/osal.c
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal_defs.h
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtk/osal.c
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/osal.h
+[24.832s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal_defs.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/vxworks/osal.c
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal_defs.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/rtems/osal.c
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_defs.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal_win32.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/stdint.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/osal.c
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/osal/win32/inttypes.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercateoe.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfiglist.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercattype.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatdc.h
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.c
+[24.833s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.h
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/nicdrv.h
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/linux/oshw.c
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.c
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.h
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/nicdrv.h
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/intime/oshw.c
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.c
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.h
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/nicdrv.h
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.h
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/fec/fec_ecat.c
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.c
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/lw_mac/lw_emac.h
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtk/oshw.c
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.c
+[24.834s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/nicdrv.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/vxworks/oshw.c
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.c
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/nicdrv.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/rtems/oshw.c
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.c
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/nicdrv.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-namedb.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Packet32.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/remote-ext.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/Win32-Extensions.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/namedb.h
+[24.835s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/pcap.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/vlan.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bpf.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/sll.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/usb.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap/bluetooth.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/bittypes.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-stdinc.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/pcap-bpf.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Include/ip6_misc.h
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libpacket.a
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/wpcap.lib
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/x64/Packet.lib
+[24.836s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/libwpcap.a
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/wpcap.lib
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/wpcap/Lib/Packet.lib
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/oshw/win32/oshw.c
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatfoe.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatmain.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatsoe.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatconfig.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercat.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatcoe.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatprint.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/soem/ethercatbase.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/Utils.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/KeloDriveAPI.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/WheelConfig.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/Structs.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/modules
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/modules/RobileMasterBattery.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/VelocityPlatformController.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/EtherCATModule.h
+[24.837s] -- Up-to-date: /home/prime/ros2_ws/install/kelo_tulip/include/kelo_tulip/PlatformDriver.h
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/launch
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/launch/example_joypad.launch.py
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/launch/example.launch.py
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/config
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/robile4.yaml
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/example.yaml
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/robile3.yaml
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/robile1.yaml
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/config/robile2.yaml
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/ament_index/resource_index/package_run_dependencies/kelo_tulip
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/ament_index/resource_index/parent_prefix_path/kelo_tulip
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/environment/ament_prefix_path.sh
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/environment/ament_prefix_path.dsv
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/environment/path.sh
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/environment/path.dsv
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/local_setup.bash
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/local_setup.sh
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/local_setup.zsh
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/local_setup.dsv
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.dsv
+[24.838s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/ament_index/resource_index/packages/kelo_tulip
+[24.839s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/cmake/kelo_tulipConfig.cmake
+[24.839s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/cmake/kelo_tulipConfig-version.cmake
+[24.839s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/share/kelo_tulip/package.xml
+[24.839s] -- Installing: /home/prime/ros2_ws/install/kelo_tulip/lib/libsoem.a
+[24.839s] Invoked command in '/home/prime/ros2_ws/build/kelo_tulip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prime/ros2_ws/install/robile_reach_goal:/home/prime/ros2_ws/install/robile_control_simple:/home/prime/ros2_ws/install/robile_bringup:/opt/ros/humble /usr/bin/cmake --install /home/prime/ros2_ws/build/kelo_tulip
