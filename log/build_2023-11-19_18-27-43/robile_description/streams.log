@@ -1,0 +1,91 @@
+[0.477s] Invoking command in '/home/prime/ros2_ws/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/prime/ros2_ws/src/robile_description -DCMAKE_INSTALL_PREFIX=/home/prime/ros2_ws/install/robile_description
+[0.511s] -- The C compiler identification is GNU 11.4.0
+[0.550s] -- The CXX compiler identification is GNU 11.4.0
+[0.555s] -- Detecting C compiler ABI info
+[0.598s] -- Detecting C compiler ABI info - done
+[0.604s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.604s] -- Detecting C compile features
+[0.604s] -- Detecting C compile features - done
+[0.607s] -- Detecting CXX compiler ABI info
+[0.659s] -- Detecting CXX compiler ABI info - done
+[0.665s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.665s] -- Detecting CXX compile features
+[0.666s] -- Detecting CXX compile features - done
+[0.668s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.949s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.062s] -- Configuring done
+[1.064s] -- Generating done
+[1.064s] -- Build files have been written to: /home/prime/ros2_ws/build/robile_description
+[1.068s] Invoked command in '/home/prime/ros2_ws/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/prime/ros2_ws/src/robile_description -DCMAKE_INSTALL_PREFIX=/home/prime/ros2_ws/install/robile_description
+[1.069s] Invoking command in '/home/prime/ros2_ws/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prime/ros2_ws/build/robile_description -- -j12 -l12
+[1.095s] Invoked command in '/home/prime/ros2_ws/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prime/ros2_ws/build/robile_description -- -j12 -l12
+[1.115s] Invoking command in '/home/prime/ros2_ws/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prime/ros2_ws/build/robile_description
+[1.122s] -- Install configuration: ""
+[1.122s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes
+[1.123s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/robile_brick_housing
+[1.123s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_green.dae
+[1.123s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_yellow.dae
+[1.123s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_red.dae
+[1.123s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid_cover_blue.dae
+[1.123s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/robile_brick_housing/lid.dae
+[1.123s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/robile_brick_housing/wheeled_brick_housing.dae
+[1.124s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/robile_brick_housing/general_brick_housing.dae
+[1.125s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/passive_caster_wheel
+[1.125s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/passive_caster_wheel/wheel.dae
+[1.126s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/passive_caster_wheel/pivot.dae
+[1.126s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/sensors
+[1.126s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/sensors/sick-lms1xx.dae
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/sensors/hokuyo_convex.dae
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/sensors/hokuyo.dae
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/kelo_drive
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_wheel.dae
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//meshes/kelo_drive/kelo_drive_base.dae
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//robots
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//robots/robile3_config.urdf.xacro
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//robots/6_wheel_config.urdf.xacro
+[1.127s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//robots/4_wheel_config.urdf.xacro
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//robots/2_wheel_config.urdf.xacro
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/base_macros
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive_wheel.urdf.xacro
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/base_macros/passive_caster_wheel.urdf.xacro
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/base_macros/kelo_drive.urdf.xacro
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/base_macros/brick_housing.urdf.xacro
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/base_macros/materials.urdf.xacro
+[1.128s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/base_macros/common.xacro
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/robile_bricks
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/robile_bricks/robile_passive_wheel_brick.urdf.xacro
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/robile_bricks/robile_active_wheel_brick.urdf.xacro
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/robile_bricks/robile_cpu_brick.urdf.xacro
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/robile_bricks/robile_empty_brick.urdf.xacro
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/robile_bricks/robile_slave_battery_brick.urdf.xacro
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/robile_bricks/robile_master_battery_brick.urdf.xacro
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/sensors
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.urdf.xacro
+[1.129s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx_mount.urdf.xacro
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/sensors/camera_front.urdf.xacro
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/sensors/hokuyo_urg04_laser.gazebo.xacro
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/sensors/sick_lms1xx.urdf.xacro
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//urdf/sensors/camera_front.gazebo.xacro
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//gazebo
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//gazebo/gazebo_ros_planar_move.xacro
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//gazebo/gazebo_ros_control.xacro
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//gazebo/gazebo_robile_laser_scanner.xacro
+[1.130s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//gazebo/gazebo_robile.xacro
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description//gazebo/gazebo_robile_laserscanner_camera.xacro
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/ament_index/resource_index/package_run_dependencies/robile_description
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/ament_index/resource_index/parent_prefix_path/robile_description
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/environment/ament_prefix_path.sh
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/environment/ament_prefix_path.dsv
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/environment/path.sh
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/environment/path.dsv
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/local_setup.bash
+[1.131s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/local_setup.sh
+[1.132s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/local_setup.zsh
+[1.132s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/local_setup.dsv
+[1.132s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/package.dsv
+[1.132s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/ament_index/resource_index/packages/robile_description
+[1.132s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/cmake/robile_descriptionConfig.cmake
+[1.132s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/cmake/robile_descriptionConfig-version.cmake
+[1.132s] -- Installing: /home/prime/ros2_ws/install/robile_description/share/robile_description/package.xml
+[1.134s] Invoked command in '/home/prime/ros2_ws/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prime/ros2_ws/build/robile_description

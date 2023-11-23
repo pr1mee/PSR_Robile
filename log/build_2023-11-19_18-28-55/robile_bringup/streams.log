@@ -1,0 +1,32 @@
+[1.651s] Invoking command in '/home/prime/ros2_ws/src/Robile/robile_bringup': PYTHONPATH=/home/prime/ros2_ws/build/robile_bringup/prefix_override:/home/prime/ros2_ws/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/prime/ros2_ws/build/robile_bringup/build install --record /home/prime/ros2_ws/build/robile_bringup/install.log --single-version-externally-managed
+[1.900s] running egg_info
+[1.914s] writing ../../../build/robile_bringup/robile_bringup.egg-info/PKG-INFO
+[1.914s] writing dependency_links to ../../../build/robile_bringup/robile_bringup.egg-info/dependency_links.txt
+[1.914s] writing requirements to ../../../build/robile_bringup/robile_bringup.egg-info/requires.txt
+[1.915s] writing top-level names to ../../../build/robile_bringup/robile_bringup.egg-info/top_level.txt
+[1.944s] reading manifest file '../../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[1.945s] writing manifest file '../../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[1.945s] running build
+[1.945s] running build_py
+[1.945s] running install
+[1.946s] /home/prime/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.946s] !!
+[1.946s] 
+[1.946s]         ********************************************************************************
+[1.946s]         Please avoid running ``setup.py`` directly.
+[1.946s]         Instead, use pypa/build, pypa/installer or other
+[1.946s]         standards-based tools.
+[1.946s] 
+[1.946s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.946s]         ********************************************************************************
+[1.946s] 
+[1.947s] !!
+[1.947s]   self.initialize_options()
+[1.950s] running install_lib
+[1.967s] running install_data
+[1.984s] running install_egg_info
+[2.000s] removing '/home/prime/ros2_ws/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[2.000s] Copying ../../../build/robile_bringup/robile_bringup.egg-info to /home/prime/ros2_ws/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info
+[2.000s] running install_scripts
+[2.138s] writing list of installed files to '/home/prime/ros2_ws/build/robile_bringup/install.log'
+[2.190s] Invoked command in '/home/prime/ros2_ws/src/Robile/robile_bringup' returned '0': PYTHONPATH=/home/prime/ros2_ws/build/robile_bringup/prefix_override:/home/prime/ros2_ws/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/prime/ros2_ws/build/robile_bringup/build install --record /home/prime/ros2_ws/build/robile_bringup/install.log --single-version-externally-managed

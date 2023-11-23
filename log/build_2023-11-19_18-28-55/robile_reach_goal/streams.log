@@ -1,0 +1,34 @@
+[1.477s] Invoking command in '/home/prime/ros2_ws/src/Robile/robile_demos/robile_reach_goal': PYTHONPATH=/home/prime/ros2_ws/build/robile_reach_goal/prefix_override:/home/prime/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/prime/ros2_ws/build/robile_reach_goal/build install --record /home/prime/ros2_ws/build/robile_reach_goal/install.log --single-version-externally-managed
+[1.687s] running egg_info
+[1.701s] writing ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/PKG-INFO
+[1.701s] writing dependency_links to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/dependency_links.txt
+[1.702s] writing entry points to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/entry_points.txt
+[1.702s] writing requirements to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/requires.txt
+[1.702s] writing top-level names to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/top_level.txt
+[1.732s] reading manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+[1.733s] writing manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+[1.733s] running build
+[1.733s] running build_py
+[1.733s] running install
+[1.733s] /home/prime/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.734s] !!
+[1.734s] 
+[1.734s]         ********************************************************************************
+[1.734s]         Please avoid running ``setup.py`` directly.
+[1.734s]         Instead, use pypa/build, pypa/installer or other
+[1.734s]         standards-based tools.
+[1.734s] 
+[1.734s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.734s]         ********************************************************************************
+[1.735s] 
+[1.735s] !!
+[1.735s]   self.initialize_options()
+[1.740s] running install_lib
+[1.757s] running install_data
+[1.776s] running install_egg_info
+[1.792s] removing '/home/prime/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal-0.0.0-py3.10.egg-info' (and everything under it)
+[1.793s] Copying ../../../../build/robile_reach_goal/robile_reach_goal.egg-info to /home/prime/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal-0.0.0-py3.10.egg-info
+[1.793s] running install_scripts
+[1.928s] Installing robile_reach_goal script to /home/prime/ros2_ws/install/robile_reach_goal/lib/robile_reach_goal
+[1.929s] writing list of installed files to '/home/prime/ros2_ws/build/robile_reach_goal/install.log'
+[1.951s] Invoked command in '/home/prime/ros2_ws/src/Robile/robile_demos/robile_reach_goal' returned '0': PYTHONPATH=/home/prime/ros2_ws/build/robile_reach_goal/prefix_override:/home/prime/ros2_ws/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/prime/ros2_ws/build/robile_reach_goal/build install --record /home/prime/ros2_ws/build/robile_reach_goal/install.log --single-version-externally-managed
